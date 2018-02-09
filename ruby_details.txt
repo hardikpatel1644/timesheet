@@ -1,0 +1,31 @@
+http://guides.rubyonrails.org/getting_started.html
+
+http://installrails.com/steps/create_your_first_app
+
+https://www.lynda.com/Ruby-Rails-tutorials/Installing-Running-Ruby-Rails-5-Windows/500550-2.html
+
+https://medium.com/ruby-on-rails-web-application-development/how-to-install-rubyonrails-on-windows-7-8-10-complete-tutorial-2017-fc95720ee059
+
+https://medium.com/finc-engineering/setup-windows-10-to-run-ruby-on-rails-using-the-new-improved-wsl-c6894d1ae2ae
+
+https://www.sitepoint.com/building-your-first-rails-application-models/
+
+http://jekyll-windows.juthilo.com/1-ruby-and-devkit/
+
+
+https://www.railstutorial.org/book/updating_and_deleting_users
+https://buildtoship.com/simple-signup-and-login-in-your-app-part-2/
+https://www.sitepoint.com/rails-userpassword-authentication-from-scratch-part-i/
+https://medium.com/@gauravtiwari/simple-authentication-in-rails-with-bcrypt-cd699bc7979d
+
+
+I did this in terminal in my project root:
+gem uninstall bcrypt-ruby
+gem uninstall bcrypt
+gem install bcrypt --platform=ruby
+
+Then added this to my Gemfile:
+gem 'bcrypt', '~> 3.1.11'
+
+And of course:
+bundle install
