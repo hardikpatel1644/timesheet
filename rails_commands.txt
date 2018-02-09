@@ -1,0 +1,25 @@
+1. rails new appname -d mysql    : Create new rails application with mysql database connection
+2. rails server   :  Start rails server
+3. rails db:migrate   : Migrate schema into database 
+4. rails db:migrate:reset   : Reset database
+
+
+
+
+
+
+
+
+
+Install / unistall bcrypt 
+
+gem list bcrypt
+gem uninstall bcrypt-ruby
+gem uninstall bcrypt
+gem install bcrypt --platform=ruby
+
+Then added this to my Gemfile:
+gem 'bcrypt', '~> 3.1.11'
+
+And of course:
+bundle install
