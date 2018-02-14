@@ -2,7 +2,12 @@
 2. rails server   :  Start rails server
 3. rails db:migrate   : Migrate schema into database 
 4. rails db:migrate:reset   : Reset database
-
+5. rails db:seed   :  to fill database with dummy entries
+6. rails db:create  : to create database based on configuration file.
+7. rails test    :  to run whole project test
+8. rails test:mailers  :  to test mailer functionality 
+9. rails generate controller Home index     :  to generate controller 
+10. 
 
 
 
